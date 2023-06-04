@@ -26,7 +26,7 @@ if pdf_uploaded:
 
 	if save_path.exists():
 		st.success(f'File {pdf_uploaded.name} is successfully saved!')
-		display_pdf(save_path)
+		display_pdf(f'{SAVE_FOLDER}/{pdf_uploaded.name}')
 
 		# Display input Question
 		st.markdown("**Please fill the below form :**")
