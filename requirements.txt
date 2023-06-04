@@ -1,0 +1,10 @@
+streamlit
+openai
+pypdf 
+langchain 
+unstructured 
+chromadb 
+tiktoken 
+pdf2image
+urllib3==1.26.6 
+tabulate
